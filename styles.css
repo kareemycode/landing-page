@@ -10,6 +10,8 @@ button{
     color: #f0faf8;
     padding: 8px 24px;
     border-radius: 12px;
+    font-size: medium;
+    font-weight: 600;
 }
 .header{
     background-color: #1F2937;
@@ -85,7 +87,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 24px;
 }
 
 .card img{
@@ -98,17 +100,18 @@ button{
 .card .text{
     font-size: 18px;
     color: #1F2937;
+    font-weight: 600;
 }
 
 .quote{
     background-color: #e5e7eb;
     padding: 100px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-bottom: 100px;
 }
 
 .full-quote{
@@ -124,4 +127,42 @@ button{
     font-size: 24px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.call-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 200px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    border-radius: 8px;
+
+}
+
+.call-action .main-text{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.call-action .sub-text{
+    font: 18px;
+    color: #e5e7eb;
+}
+
+.call-action button{
+    border: 3px solid #f0faf8;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }

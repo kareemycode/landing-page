@@ -6,12 +6,26 @@ body{
 .header{
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;    
 }
 .header ul{
     display: flex;
-    
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.header a{
+    color: #f0faf8;
+    text-decoration: none;
 }
 .logo{
     width: 200px;
-    height: 50px;
+    height: 100px;
+}
+
+.hero{
+    background-color: #1F2937;
 }

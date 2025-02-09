@@ -99,3 +99,29 @@ button{
     font-size: 18px;
     color: #1F2937;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.full-quote{
+    width: 75%;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name{
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}

@@ -2,11 +2,20 @@ body{
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f0faf8;
+    padding: 8px 24px;
+    border-radius: 12px;
 }
 .header{
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;    
+    padding-bottom: 34px;
 }
 .header ul{
     display: flex;
@@ -28,4 +37,23 @@ body{
 
 .hero{
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 34px;
+}
+
+.hero h1{
+    color: #f0faf8;
+    font-size: 48px;
+}
+
+.hero p{
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 500px;
+}
+
+.hero img{
+    width: 500px;
+    height: 300px;
 }
